@@ -15,3 +15,6 @@ downtime tracking
 production counts
 event-based operational data
 basic production metrics
+
+**Architecture**
+Machine Simulator → Event Database → API Layer → Metrics Endpoints
