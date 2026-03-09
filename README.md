@@ -1,20 +1,25 @@
-# industrial-event-stream-simulator
-a lightweight industrial event simulation platform that generates machine-state events, stores them in a relational database, and exposes operational metrics through a FastAPI backend
+# Industrial Event Stream Simulator
 
-**Project Summary**
-Built a lightweight industrial event simulation platform that generates machine-state events, stores them in a relational database, and exposes operational metrics through a FastAPI backend. The project demonstrates backend patterns common in industrial software systems, including event-driven data capture, machine-state modeling, and production metrics reporting.
+A lightweight industrial software project that simulates machine-state events, stores them in a relational database, and exposes operational metrics through a FastAPI backend.
 
-**Tech Stack**
-Python
-FastAPI
-SQLAlchemy
-SQLite
-Simulated Industrial Concepts
-machine state transitions
-downtime tracking
-production counts
-event-based operational data
-basic production metrics
+## Why I built this
 
-**Architecture**
-Machine Simulator → Event Database → API Layer → Metrics Endpoints
+This project demonstrates backend engineering patterns relevant to industrial software platforms:
+
+- machine-state event modeling
+- real-time operational data capture
+- downtime analysis
+- production metrics APIs
+- manufacturing-style reporting workflows
+
+## Tech Stack
+
+- Python
+- FastAPI
+- SQLAlchemy
+- SQLite
+
+## Architecture
+
+```text
+Machine Simulator → SQLite Event Store → FastAPI → Metrics Endpoints
