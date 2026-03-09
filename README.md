@@ -20,5 +20,3 @@ I built this project to strengthen and demonstrate backend software engineering 
 
 ```text
 Machine Simulator → SQLite Event Store → FastAPI → Metrics Endpoints
-<img width="936" height="1011" alt="image" src="https://github.com/user-attachments/assets/538751ab-fe5d-4e78-961c-1a6067cf96d1" />
-
